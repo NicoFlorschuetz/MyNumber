@@ -58,7 +58,7 @@
                         </div>
                         
                         <form id="signUpForm">
-                            <input type="password" id="emailField" required>
+                            <input type="password" id="emailField" pattern="Hund" required>
                             <button id="okButton" disabled>OK</button>
                         </form>
 
@@ -77,9 +77,13 @@
                             }
                             });
 
-                            okButton.addEventListener('click', function (event) {
+                            okButton.addEventListener('click', function (myFunction()) {
                                 signUpForm.submit();
                             });
+                            
+                            function myFunction() {
+                                window.open("https://nicoflorschuetz.github.io/ReadyPresent/")
+                            }
                         </script>
                        <!-- <form action="https://nicoflorschuetz.github.io/ReadyPresent/">
                             <!-- <input id="passwd" name="password" required pattern="Hund"> 
