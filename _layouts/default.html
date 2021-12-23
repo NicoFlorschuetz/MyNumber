@@ -58,28 +58,11 @@
                         </div>
                         
                         <form id="signUpForm">
-                            <input type="text" id="emailField" required pattern="Hund">
-                            <button id="okButton" disabled>OK</button>
+                            <input type="text" id="emailField" value="enter Password">
+                            <button onclick="myFunction()">Los!</button>
                         </form>
 
                         <script>
-                            const signUpForm = document.getElementById('signUpForm');
-                            const emailField = document.getElementById('emailField');
-                            const okButton = document.getElementById('okButton');
-
-                            emailField.addEventListener('keyup', function (event) {
-                                isValidEmail = emailField.checkValidity();
-
-                            if ( isValidEmail ) {
-                                okButton.disabled = false;
-                            } else {
-                                okButton.disabled = true;
-                            }
-                            });
-
-                            okButton.addEventListener('click', function (myFunction()) {
-                                signUpForm.submit();
-                            });
                             
                             function myFunction() {
                                 window.open("https://nicoflorschuetz.github.io/ReadyPresent/")
