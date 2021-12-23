@@ -56,12 +56,37 @@
                                 {{ site.app_description }}
                             </p>
                         </div>
-                        <form action="https://nicoflorschuetz.github.io/ReadyPresent/">
-                            <!-- <input id="passwd" name="password" required pattern="Hund"> -->
-                            <!-- noch nichts eingeben>
-                            <input type="submit"/>-->
-                            <!-- button onclick="https://nicoflorschuetz.github.io/ReadyPresent/">anmelden</button-->
+                        
+                        <form id="signUpForm">
+                            <input type="password" id="emailField" required>
+                            <button id="okButton" disabled>OK</button>
                         </form>
+
+                        <script>
+                            const signUpForm = document.getElementById('signUpForm');
+                            const emailField = document.getElementById('emailField');
+                            const okButton = document.getElementById('okButton');
+
+                            emailField.addEventListener('keyup', function (event) {
+                                isValidEmail = emailField.checkValidity();
+
+                            if ( isValidEmail ) {
+                                okButton.disabled = false;
+                            } else {
+                                okButton.disabled = true;
+                            }
+                            });
+
+                            okButton.addEventListener('click', function (event) {
+                                signUpForm.submit();
+                            });
+                        </script>
+                       <!-- <form action="https://nicoflorschuetz.github.io/ReadyPresent/">
+                            <!-- <input id="passwd" name="password" required pattern="Hund"> 
+                            <!-- noch nichts eingeben>
+                            <input type="submit"/>
+                            <!-- button onclick="https://nicoflorschuetz.github.io/ReadyPresent/">anmelden</button>
+                        </form>-->
                         
                     </div>
                     {% include features.html %}
