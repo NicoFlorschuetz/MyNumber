@@ -9,10 +9,9 @@ include_in_header: true
 **Last updated**  
 Dec 21 2021
 
-# Teilnahmebedingungen
+# Herzlichen Glückwunsch
 
-Der Gutschein ist nur einlösbar, wenn du das richtige Codewort eingegeben hast. <br>
-Er ist gültig bis zum Ende der Freundschaft und kann nicht übertragen werden. <br>
-Er kann nicht mit anderen Aktionen eingelöst werden. Der beste Freund muss während des Shootings anwesend sein. <br>
-Der Termin muss 2 Wochen im Voraus bekannt gegeben und abgesprochen werden. <br>
-Im Gutschein sind 3-4 Bilder inklusive Nachbearbeitung enthalten. <br>
+Herzlichen Glückwunsch Estelle! <br>
+Du hast gewonnen, du hast endlich meine Nummer. <br>
+Ich hoffe, du findest mich jetzt nicht plötzlich langweilig deswegen :D<br>
+
